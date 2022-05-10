@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadine's Portfoilio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+	
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<a id="button"></a>
+
+<header>
+	<div class="introduction">
+		<div class="line">
+			<span class="line-number">1</span>
+			<span class="line-content">Hi there</span>
+		</div>
+		<div class="line">
+			<span class="line-number">2</span>
+			<span class="line-content">I am <mark>Nadine Jackson</mark></span>
+		</div>
+		<div class="line">
+			<span class="line-number">3</span>
+			<span class="line-content">a <mark>Software Engineer</mark></span>
+		</div>
+		<div class="empty-line">
+			<div class="line-number line-number-a">4</div>
+			<div class="line-number line-number-b">5</div>
+		</div>
+
+		<a class="link mouse_scroll" data-scroll="topmain" href="#">
+			<div>
+				<span class="m_scroll_arrows unu"></span>
+				<span class="m_scroll_arrows doi"></span>
+				<span class="m_scroll_arrows trei"></span>
+			</div>
+		</a>
+	</div>
+</header>
+
+<span class="position-absolute trigger">
+	<!-- hidden trigger to apply 'stuck' styles --></span>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+	<div id="topmain"></div>
+	<div class="container">
+		<a class="navbar-brand link" data-scroll="top" href="#">
+			<img src="https://github.com/NadineJackson1/portfolio/blob/main/Logopic1.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="">
+			Nadine Jackson
+		</a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="link nav-link" data-scroll="work"><i class="fas fa-briefcase"></i> Work</a>
+				</li>
+				<li class="nav-item dropdown ">
+					<a href="#" class="link nav-link" data-scroll="languagesProgramming"><i class="fas fa-code"></i> Skills</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="link nav-link" data-scroll="contact-me"><i class="fas fa-id-card"></i> Contact me</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://docs.google.com/document/d/1KQSb_Pwmw120diI2OqbSidknEIHdCLd-/edit?usp=sharing&ouid=102044991862037207499&rtpof=true&sd=true" class="nav-link" target="__blank"><i class="fas fa-file-pdf"></i> Resume</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+
+	<div class="row" id="work">
+
+		<div class="col-lg-12">
+			<div class="display-1 text-center title-section">Work</div>
+
+			<ul class="filters text-center">
+				<li class="active" data-filter="*"><a href="#!"><i class="fas fa-star-of-life"></i> All</a></li>
+				<li data-filter=".desktop"><a href="#!"><i class="fas fa-laptop-code"></i> Desktop</a></li>
+				<li data-filter=".Web"><a href="#!"><i class="fas fa-globe"></i> Web</a></li>
+				<li data-filter=".design"><a href="#!"><i class="far fa-object-group"></i> Design</a></li>
+			</ul>
+
+			<div class="projects">
+
+				<div class="row">
+
+					<div class="col-lg-4 item desktop CSharp">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h4>Encryption Translator</h4>
+								</div>
+								<div class="project-hover">
+									<p>This text does not contain any purpose other than filling the design.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">Encryption Translator</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".CSharp"><a href="#!">C#</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="#!" class="btn project-btn"><i class="fas fa-file-download"></i> Download</a>
+									<a href="#!" class="btn project-btn disabled"><i class="far fa-eye-slash"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 item Web html css jquery">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://repository-images.githubusercontent.com/489555252/2681a01d-78b5-43e2-9ef9-9c1b3b8bdb9a" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h2>Level Ground Gym</h2>
+								</div>
+								<div class="project-hover">
+									<p>Responsive site designed with custom logo and branding. Made with HTML5 and CSS.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">Web</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".html"><a href="#!">HTML</a></li>
+									<li data-filter=".css"><a href="#!">CSS</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="https://github.com/NadineJackson1/levelGroundWomensGym" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+									<a href="https://codepen.io/nadinejackson/pen/bGLENay" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 item design psd">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://repository-images.githubusercontent.com/490130368/d99fb8b2-9828-46ae-8385-de2984cadc94" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h2>Bound Together Bookshop</h2>
+								</div>
+								<div class="project-hover">
+									<p>Clean, responsive site designed with custom logo and branding. Made with HTML5, CSS and Adobe.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">design</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".html"><a href="#!">HTML</a></li>
+									<li data-filter=".css"><a href="#!">CSS</a></li>
+									<li data-filter=".psd"><a href="#!">PSD</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="https://github.com/NadineJackson1/boundTogether" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+									<a href="https://codepen.io/nadinejackson/pen/ExQPBQz/063aace3bc9de122aab09116e4832e87" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 item Web html css">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://repository-images.githubusercontent.com/476527707/cb70350d-44c1-481c-a25e-fcf4728b7390" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h2>Save Your Fork</h2>
+								</div>
+								<div class="project-hover">
+									<p>Multi-page site made with HTML and CSS.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">Web</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".html"><a href="#!">HTML</a></li>
+									<li data-filter=".css"><a href="#!">CSS</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="https://github.com/NadineJackson1/saveYourFork" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+									<a href="https://codepen.io/nadinejackson/project/editor/DBnNOz" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 item design psd">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://repository-images.githubusercontent.com/489870358/9a4a163f-ba0c-46ca-8885-719d50fbf60f" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h2>Young's Wedding</h2>
+								</div>
+								<div class="project-hover">
+									<p>Responsive landing page with custom photo design, logo and branding. Made with HTML5, CSS and Adobe.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">design</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".html"><a href="#!">HTML</a></li>
+									<li data-filter=".css"><a href="#!">CSS</a></li>
+									<li data-filter=".psd"><a href="#!">PSD</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="https://github.com/NadineJackson1/foreverYoungsWedding" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+									<a href="https://codepen.io/nadinejackson/pen/PoQZQXZ" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 item Web html css javascript">
+
+						<div class="project">
+
+							<div class="project-head">
+								<img src="https://repository-images.githubusercontent.com/490073192/bfaf08b4-85fa-4a1c-a234-cbb1489664e7" alt="" class="img-fluid card-img">
+								<div class="project-overlay">
+									<h2>Alek Design Agency</h2>
+								</div>
+								<div class="project-hover">
+									<p>Clean, responsive site with parallax scrolling, custom photo design, logo and branding. Made with HTML5, CSS, Javascript and Adobe.</p>
+								</div>
+							</div>
+
+							<div class="project-body text-center">
+								<h3 class="title">Web</h3>
+
+								<ul class="filters filters-tag text-center">
+									tag:
+									<li data-filter=".html"><a href="#!">HTML</a></li>
+									<li data-filter=".css"><a href="#!">CSS</a></li>
+									<li data-filter=".javascript"><a href="#!">JavaScript</a></li>
+									<li data-filter=".psd"><a href="#!">PSD</a></li>
+								</ul>
+
+								<div class="btn-group" role="group">
+									<a href="https://github.com/NadineJackson1/alek" class="btn  project-btn"><i class="fas fa-code"></i> Code</a>
+									<a href="https://codepen.io/nadinejackson/pen/MWQKxbX" class="btn  project-btn"><i class="far fa-eye"></i> View</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div><!-- end work -->
+
+	<div class="col-lg-12 text-center">
+		<div id="languagesProgramming"></div>
+
+		<div class="display-1 title-section">Skills</div>
+		<div class="display-4">Programming Languages</div><br>
+
+		<div class="row skills-cont">
+			<div class="col-md-6 skill">
+				<p class="h1">Web</p>
+				<p class="h3">Back-end</p>
+				<ul class="list-unstyled">
+					<li class="list-inline-item text-center"><i class="devicon-php-plain colored" style="font-size: 60px;"></i><br>PHP</li>
+
+				</ul>
+
+				<p class="h3">Front-end</p>
+				<ul class="list-unstyled">
+					<li class="list-inline-item "><i class="devicon-javascript-plain colored" style="font-size: 60px;"></i><br>JavaScript</li>
+					<li class="list-inline-item text-center"><i class="devicon-jquery-plain colored" style="font-size: 60px;"></i><br>jQuery</li>
+					<li class="list-inline-item text-center"><i class="devicon-css3-plain colored" style="font-size: 60px;"></i><br>CSS</li>
+					<li class="list-inline-item text-center"><i class="devicon-html5-plain colored" style="font-size: 60px;"></i><br>HTML</li>
+					<li class="list-inline-item text-center"><i class="devicon-bootstrap-plain colored" style="font-size: 60px;"></i><br>BootStrap</li>
+					<li class="list-inline-item text-center"><i class="devicon-photoshop-line colored" style="font-size: 60px;"></i><br>Photoshop</li>
+					<li class="list-inline-item text-center"><i class="devicon-nodejs-plain colored" style="font-size: 60px;"></i><br>Nodejs</li>
+
+				</ul>
+
+			</div>
+			<div class="col-md-5  mx-auto">
+				<div class="row">
+					<div class="col-sm-12 skill">
+						<p class="h1">Cloud</p>
+						<p class="h3">Applications</p>
+						<ul class="list-unstyled">
+							<li class="list-inline-item text-center"><i class="devicon-amazonwebservices-original colored" style="font-size: 60px;"></i><br>AWS</li>
+							<li class="list-inline-item text-center"><i class="devicon-azure-plain colored" style="font-size: 60px;"></i><br>Azure</li>
+
+						</ul>
+
+					</div>
+					<div class="col-sm-12 skill">
+						<p class="h1">Database</p>
+						<ul class="list-unstyled">
+							<li class="list-inline-item text-center"><i class="devicon-oracle-original colored" style="font-size: 60px;"></i><br>Oracle</li>
+							<li class="list-inline-item text-center"><i class="devicon-mysql-plain colored" style="font-size: 60px;"></i><br>MySQL</li>
+							<li class="list-inline-item text-center"><i class="devicon-postgresql-plain colored" style="font-size: 60px;"></i><br>PostgreSQL</li>
+							<li class="list-inline-item text-center"><i class="devicon-mongodb-plain colored" style="font-size: 60px;"></i><br>MongoDB</li>
+
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br><br><br><br><br>
+<!-- end container -->
+
+<footer class="footer">
+
+	<div class="container px-lg-5 text-center footer-content">
+		<div class="row mx-lg-n5">
+			<div class="col py-3 px-lg-5">
+				<div class="display-4 text-center title-section" id="contact-me">Contact me</div>
+
+				<div class="container">
+					<a href="https://nadinejackson1.github.io/"><i class="fas fa-globe"></i> WebSite</a>
+					<a href="https://www.linkedin.com/in/NadineJackson1" target="__blank"><i class="fab fa-linkedin"></i> linkedin</a>
+					<a href="https://github.com/NadineJackson1" target="__blank"><i class="fab fa-github-square"></i> github</a>
+					<a href="https://codepen.io/NadineJackson1" target="__blank"><i class="fab fa-codepen"></i> codepen</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright">
+		Design by Nadine Jackson | 2022
+		<script>
+			new Date().getFullYear() > 2022 && document.write(" - " + new Date().getFullYear());
+
+		</script>
+	</div>
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/177aa6247e.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="script.js"></script>
+    
+</body>
+
+</html>
