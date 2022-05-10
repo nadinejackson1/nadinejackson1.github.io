@@ -1,8 +1,8 @@
 /*
 Theme Name: myPortfolio 1.0
-Theme URI: www.nadinejackson.com
+Theme URL:  http://www.nadinejackson1.github.io
 Author: Nadine Jackson
-Author URI: http://www.nadinejackson.com
+Author URL: http://www.nadinejackson1.github.io
 Template: CP11
 Description: myPortfolio Theme
 Version: 1.0
@@ -30,7 +30,7 @@ ul.filters > li {
 
 ul.filters > li > a {
     display: block;
-    color: #434e5e;
+    color: #000000;
     text-decoration: none;
     padding: 5px 20px;
 }
@@ -40,8 +40,8 @@ ul.filters > li > a:hover {
 }
 
 ul.filters > li.active > a {
-    color: #fff;
-    background-color: rgba(252, 41, 74, 1);
+    color: #ffbb00;
+    background-color: rgba(23, 182, 255, 0);
 }
 
 .project {
@@ -66,7 +66,7 @@ ul.filters > li.active > a {
     width: 100%;
     height: 100%;
     z-index: 9;
-    background-color: rgba(67, 78, 94, 0.8);
+    background-color: rgba(67, 94, 81, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ ul.filters > li.active > a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(252, 41, 74, 0.9);
+    background-color: #ffbb00;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ h4.title {
 }
 
 .project-btn:hover {
-    background-color: rgba(252, 41, 74, 1);
+    background-color: #ffbb00;
     color: #fff;
 }
 
@@ -139,7 +139,7 @@ body {
 
 header {
     height: 100vh;
-    background-color: #252525;
+    background-color: #ffbb00;
     color: #F5F5F5;
 }
 
@@ -150,7 +150,7 @@ header > div {
 }
 
 .introduction {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.67;
     letter-spacing: 0.7px;
     padding-left: 5%;
@@ -173,18 +173,18 @@ header > div {
 
 .line-content,
 .line-content mark {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 30px;
     letter-spacing: 4px;
     opacity: 85%;
 }
 
 .line-content mark {
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 
 .empty-line {
-    background: linear-gradient(to bottom, #252423, #252525);
+    background: linear-gradient(to bottom, #ffbb00, #ffbb00);
 }
 
 .empty-line .line-number {
@@ -201,7 +201,7 @@ header > div {
 
 mark {
     background: transparent;
-    color: rgba(252, 41, 74, 0.99);
+    color: rgb(2, 0, 5);
 }
 
 .title-section {
@@ -234,13 +234,13 @@ a {
 }
 
 a:hover {
-    color: rgba(252, 41, 74, 0.99);
+    color: rgb(1, 0, 2);
     text-decoration: none;
 }
 
 #button {
     display: inline-block;
-    background-color: rgba(252, 41, 74, 0.99);
+    background-color: rgba(28, 61, 33, 0.623);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -267,11 +267,11 @@ a:hover {
 
 #button:hover {
     cursor: pointer;
-    background-color: #252525;
+    background-color: #ffbb00;
 }
 
 #button:active {
-    background-color: #252525;
+    background-color: #ffbb00;
 }
 
 #button.show {
@@ -282,7 +282,7 @@ a:hover {
 .footer {
     height: 100%;
     padding: 10vh;
-    background-color: #252525;
+    background-color: #ffbb00;
     color: #F5F5F5;
 }
 
@@ -313,7 +313,7 @@ ul.filters.filters-tag > li > a {
 
 ul.filters.filters-tag > li.active > a {
     color: #fff;
-    background-color: rgba(252, 41, 74, 0.8);
+    background-color: #ffbb00;
 }
 
 .filters-tag {
@@ -321,13 +321,13 @@ ul.filters.filters-tag > li.active > a {
 }
 
 .bg-dark {
-    background-color: #252525 !important;
+    background-color: #ffbb00 !important;
 }
 
 .navbar .dropdown-menu , .navbar .dropdown.show a , .dropdown-item{
-    background-color: rgba(37, 37, 37, 1) !important;
+    background-color: #ffbb00 !important;
     
-    color: rgba(255,255,255,.5);;
+    color: rgb(255, 255, 255);;
 }
 
 .sticky-top {
@@ -336,11 +336,11 @@ ul.filters.filters-tag > li.active > a {
 
 /* style for when sitcky is applied */
 .stuck .sticky-top {
-    background-color: rgba(37, 37, 37, 0.9) !important;
+    background-color: #ffbb00 !important;
 }
 
 .navbar-brand {
-    color: rgb(252, 41, 74) !important;
+    color: rgb(255, 255, 255) !important;
     font-size: 1.3em;
 }
 
@@ -349,7 +349,7 @@ ul.filters.filters-tag > li.active > a {
     margin: 0 auto;
     width: 24px;
     height: 100px;
-    margin-top: 125px;
+    margin-top: 90px;
 }
 
 
@@ -396,8 +396,8 @@ ul.filters.filters-tag > li.active > a {
 }
 
 .doi {
-    border-right-color: rgb(252, 41, 74) !important;
-    border-bottom-color: rgb(252, 41, 74) !important;
+    border-right-color: rgb(17, 1, 1) !important;
+    border-bottom-color: rgb(26, 1, 1) !important;
     -webkit-animation-delay: .2s;
     -moz-animation-delay: .2s;
     -webkit-animation-direction: alternate;
